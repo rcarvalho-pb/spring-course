@@ -1,0 +1,12 @@
+spring:
+    application:
+        name:   demo
+    sql:
+        init:
+            data-locations: classpath:sql/data.sql
+    # r2dbc:
+    #     url: r2dbc:h2:mem:///userdb
+    #     username: username
+    #     password: password
+
+sec: sec02
